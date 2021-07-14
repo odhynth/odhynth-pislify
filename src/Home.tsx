@@ -1,17 +1,5 @@
 import { Component } from "react";
-
-
-function Link(link:string , name:string, blank:boolean)
-{
-    return(
-        <a
-            href = {link}
-            target = {blank ? "_blank" : ""}
-        > 
-            {name}
-        </a>
-    );
-}
+import {Link} from "./Misc";
 
 export class Home extends Component
 {

@@ -1,12 +1,45 @@
 .App {
   text-align: center;
 }
+
+@keyframes Logo {
+  0% { -webkit-transform: translate(0px, 20px); }
+  50% { -webkit-transform: translate(0px, -5px); }
+  100% { -webkit-transform: translate(0px, 20px); }
+}
+
+.Logo{
+  width: 100px;
+	height: 100px;
+  align-self: center;
+}
+
+.LogoContainer{
+  width: 150px;
+	height: 150px;
+}
+
+.Topbar{
+  width: 150px;
+	height: 150px;
+	box-sizing: border-box;
+	overflow: hidden;
+	transform: translatey(0px);
+	animation: Logo 6s ease-in-out infinite;
+
+}
 /*
 colors:
 #FCF1F1
 #FFD5CD
 #F9813A
 #1A1C20
+
+#364F6B
+#3FC1C9
+#F5F5F5
+#FC5185
+
 */
 .App-logo {
   height: 40vmin;
@@ -15,6 +48,7 @@ colors:
 
 a{
   color : #F9813A;
+  text-decoration: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -3,16 +3,14 @@
 }
 
 @keyframes Logo {
-  0% { -webkit-transform: translate(0px, 20px); }
-  50% { -webkit-transform: translate(0px, -5px); }
+  0% { -webkit-transform: translate(0px, 20px);}
+  50% { -webkit-transform: translate(0px, -5px);}
   100% { -webkit-transform: translate(0px, 20px); }
 }
 
 .Home{
-  display: flex;
-  flex : 1;
-  word-wrap: break-word;
-  width: 500px;
+  width: 600px;
+  text-align: center;
 }
 
 .Logo{
@@ -32,9 +30,29 @@
 	box-sizing: border-box;
 	overflow: hidden;
 	transform: translatey(0px);
-	animation: Logo 6s ease-in-out infinite;
+	animation: Logo 2s ease-in-out infinite;
 
 }
+.Title
+{
+
+}
+.ImageContainer
+{
+  position: relative;
+  text-align: center;
+
+}
+.ImageCaption
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color : #3FC1C9;
+  
+}
+
 .CollabElement::after
 {
   content: "";
@@ -43,7 +61,7 @@
 }
 .Collab
 {
-  text-align: right;
+  text-align: left;
 
 }
 /*

@@ -13,13 +13,20 @@ export function Link(link:string , name:string, blank:boolean)
     );
 }
 
+export function GenImageWithCaption(image:string , caption:string)
+{
+    return(
+        <div className = "ImageContainer">
+            <img src = {image}></img>
+            <div className="ImageCaption"><b>{caption}</b></div>
+        </div>
+    );
+}
+
 export class Collab extends Component
 {
     render(){
-        let ps = new Logo(this.props);
-        let od = new Logo(this.props);
-        ps.logoPath = "pislify.png";
-        od.logoPath = "odhynth.png";
+        
         return(
             <div className = "Collab">
                 

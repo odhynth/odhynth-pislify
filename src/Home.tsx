@@ -19,6 +19,11 @@ export class Home extends Component
                 <div>
                     <Collab></Collab>
                 </div>
+                <div className = "Home">
+                    <h2 className = "Title">
+                        I want to:
+                    </h2>
+                </div>
             </div>
         );
     }

@@ -1,15 +1,24 @@
 import { Component } from "react";
 import {Link} from "./Misc";
-
+import { Collab } from "./Misc";
 export class Home extends Component
 {
     render()
     {
         return (
-            <div className = "Home">
+            <div>
+                <div className = "Home">
                 <h1 className = "Title">
-                    Welcome to Great Game Dev, here you'll find all the resources you need to become the next {Link("https://en.wikipedia.org/wiki/Toby_Fox","Toby Fox",true)}
+                    {/* TODO: add page  */}
+                    Welcome to Great Game Dev, here you'll find all the resources you need to make the next {Link("https://en.wikipedia.org/wiki/Toby_Fox","Great Game",true)}
                 </h1>
+                <line>
+                    </line>
+                
+                </div>
+                <div>
+                    <Collab></Collab>
+                </div>
             </div>
         );
     }

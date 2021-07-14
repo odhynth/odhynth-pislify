@@ -8,6 +8,13 @@
   100% { -webkit-transform: translate(0px, 20px); }
 }
 
+.Home{
+  display: flex;
+  flex : 1;
+  word-wrap: break-word;
+  width: 500px;
+}
+
 .Logo{
   width: 100px;
 	height: 100px;
@@ -26,6 +33,17 @@
 	overflow: hidden;
 	transform: translatey(0px);
 	animation: Logo 6s ease-in-out infinite;
+
+}
+.CollabElement::after
+{
+  content: "";
+  clear: both;
+  display: table;
+}
+.Collab
+{
+  text-align: right;
 
 }
 /*
@@ -51,7 +69,7 @@ colors:
 }
 
 a{
-  color : #F9813A;
+  color : #FC5185;
   text-decoration: none;
 }
 
@@ -62,18 +80,18 @@ a{
 }
 
 .App-header {
-  background-color: #1A1C20;
+  background-color: #F5F5F5;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #FCF1F1;
+  color: #3FC1C9;
 }
 
 .App-link {
-  color: #F9813A;
+  color: #364F6B;
 }
 
 @keyframes App-logo-spin {

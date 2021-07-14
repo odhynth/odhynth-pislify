@@ -1,7 +1,14 @@
 .App {
   text-align: center;
 }
-
+.Reading
+{
+  text-align : left;
+}
+.Readable{
+  text-align : left;
+  color: #364F6B;
+}
 @keyframes Logo {
   0% { -webkit-transform: translate(0px, 20px);}
   50% { -webkit-transform: translate(0px, -5px);}

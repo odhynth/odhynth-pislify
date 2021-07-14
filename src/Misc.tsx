@@ -46,7 +46,7 @@ export class Logo extends Component
     {
         return(
             <div className="LogoContainer">
-            <img src = {this.logoPath}  className = "Logo"></img>
+            <a href = "/"><img src = {this.logoPath}  className = "Logo"></img></a>
             </div>
         );
     }

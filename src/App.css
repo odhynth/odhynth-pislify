@@ -1,10 +1,20 @@
 .App {
   text-align: center;
 }
-
+/*
+colors:
+#FCF1F1
+#FFD5CD
+#F9813A
+#1A1C20
+*/
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+a{
+  color : #F9813A;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,18 +24,18 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #1A1C20;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #FCF1F1;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #F9813A;
 }
 
 @keyframes App-logo-spin {

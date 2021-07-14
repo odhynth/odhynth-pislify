@@ -9,8 +9,9 @@
 }
 
 .Home{
-  width: 600px;
+  width: 750px;
   text-align: center;
+  text-indent: inherit;
 }
 
 .Logo{
@@ -35,7 +36,9 @@
 }
 .Title
 {
-
+  text-align: center;
+  text-rendering: geometricPrecision;
+  
 }
 .ImageContainer
 {
@@ -50,7 +53,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color : #3FC1C9;
-  
+  background-color: #F5F5F5;
 }
 
 .CollabElement::after
@@ -61,7 +64,7 @@
 }
 .Collab
 {
-  text-align: left;
+  text-align: center;
 
 }
 /*
@@ -95,6 +98,10 @@ a{
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.body{
+  background-color: #F5F5F5;
 }
 
 .App-header {
